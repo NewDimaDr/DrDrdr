@@ -220,7 +220,7 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </Button.RenderTransform>
-                <Image x:Name="image6" Source="pizza.png" Height="150.254" RenderTransformOrigin="0.5,0.5">
+                <Image x:Name="image6" Source="pizza.png" Height="150.254" RenderTransformOrigin="0.5,0.5" PreviewMouseLeftButtonDown="image6_PreviewMouseLeftButtonDown">
                     <Image.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>

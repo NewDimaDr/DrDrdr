@@ -24,5 +24,11 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void image6_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            VideoWindow videoWindow = new VideoWindow(/*сюда путь к видео*/);
+            videoWindow.ShowDialog();
+        }
     }
 }
