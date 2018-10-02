@@ -8,7 +8,8 @@
         Title="MainWindow" Height="500" Width="500" 
         WindowStyle="None" ResizeMode="NoResize"  
         Background="Transparent"
-        AllowsTransparency="True">
+        AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen">
 
     <Window.Resources>
         <Style TargetType="{x:Type Button}">
