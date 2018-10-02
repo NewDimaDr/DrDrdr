@@ -55,17 +55,23 @@ namespace WpfApp1
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
+            VideoWindow videoWindow = new VideoWindow("4.mp4");
+            videoWindow.ShowDialog();
             GridMain.Children.Remove((sender as Button));
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             GridMain.Children.Remove((sender as Button));
+            VideoWindow videoWindow = new VideoWindow("5.mp4");
+            videoWindow.ShowDialog();
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
             GridMain.Children.Remove((sender as Button));
+            VideoWindow videoWindow = new VideoWindow("6.mp4");
+            videoWindow.ShowDialog();
         }
 
         private void Button_Click_6(object sender, RoutedEventArgs e)

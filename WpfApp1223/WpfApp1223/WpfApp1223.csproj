@@ -130,7 +130,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\DanyaPhoto.jpg" />
-    <None Include="Images\Аполлон.png" />
+    <Resource Include="Images\Аполлон.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Images\DanyaPhoto.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

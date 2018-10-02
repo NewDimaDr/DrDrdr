@@ -8,7 +8,7 @@
         Title="MB" Height="300" Width="300" WindowStyle="None" ResizeMode="NoResize">
     <Grid>
         <TextBlock Background="Transparent" Text="Кликай на те участки пицци которые не ест Даня" Panel.ZIndex="100" TextWrapping="Wrap" FontSize="32" FontWeight="Bold" LineStackingStrategy="BlockLineHeight" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Image Source="Resources\danil.png" Stretch="Fill"></Image>
+        <Image Source="Resources\Аполлон.png" Stretch="Fill"></Image>
         <Button Content="Ok" x:Name="bt_Ok" Width="50" Height="30" Margin="15" VerticalAlignment="Bottom" HorizontalAlignment="Center" Click="bt_Ok_Click"></Button>
     </Grid>
 </Window>
