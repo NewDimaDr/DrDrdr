@@ -170,6 +170,28 @@
                 <ColumnDefinition Width="11*"/>
                 <ColumnDefinition Width="21*"/>
             </Grid.ColumnDefinitions>
+            <Grid>
+                <Rectangle RadiusX="250" RadiusY="250" Width="465" Height="465" Margin="5,5,-310,5" RenderTransformOrigin="0.502,0.499">
+                    <Rectangle.Fill>
+                        <ImageBrush x:Name="myImage" ImageSource="Images/DanyaPhoto.jpg" Stretch="UniformToFill"/>
+                    </Rectangle.Fill>
+                    <Rectangle.RenderTransform>
+                        <!-- giving the transform a name tells the framework not to freeze it -->
+                        <RotateTransform x:Name="noFreeze" />
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Triggers>
+                        <EventTrigger RoutedEvent="Loaded">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation
+            Storyboard.TargetProperty="(Rectangle.RenderTransform).(RotateTransform.Angle)"
+            To="-360" Duration="0:0:10" RepeatBehavior="Forever" />
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </Rectangle.Triggers>
+                </Rectangle>
+            </Grid>
             <Button x:Name="button"   HorizontalAlignment="Left" Height="234.554" Margin="117.002,-11.442,0,0" VerticalAlignment="Top" Width="223.113" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5" Click="button_Click_1" Template="{DynamicResource ButtonControlTemplate1}">
                 <Button.RenderTransform>
                     <TransformGroup>
@@ -376,6 +398,8 @@
                         <GradientStop Color="#FF9EBB18" Offset="1"/>
                     </LinearGradientBrush>
                 </TextBlock.Foreground><Run Background="#FF15A8D3" Text="LOL"/></TextBlock>
+
+
 
         </Grid>
 
