@@ -170,11 +170,7 @@
                 <ColumnDefinition Width="11*"/>
                 <ColumnDefinition Width="21*"/>
             </Grid.ColumnDefinitions>
-            <Button  HorizontalAlignment="Left" Margin="22,167,0,0" VerticalAlignment="Top" Width="133" Height="210">
-                <Button.Background>
-                    <ImageBrush ImageSource="pack://siteoforigin:,,,/NewFolder1/DanyaPhoto.jpg"/>
-                </Button.Background>
-            </Button>
+           
             <Button x:Name="button"   HorizontalAlignment="Left" Height="234.554" Margin="117.002,-11.442,0,0" VerticalAlignment="Top" Width="223.113" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5" Click="button_Click_1" Template="{DynamicResource ButtonControlTemplate1}">
                 <Button.RenderTransform>
                     <TransformGroup>
