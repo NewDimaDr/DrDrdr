@@ -26,7 +26,7 @@ namespace WpfApp1
         public VideoWindow(string path)
         {
             InitializeComponent();
-            movieLoader.Source = new Uri(path);
+            movieLoader.Source = new Uri(path, UriKind.RelativeOrAbsolute);
         }
 
         private void movieLoader_PreviewMouseDown(object sender, MouseButtonEventArgs e)

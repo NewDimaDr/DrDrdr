@@ -169,7 +169,7 @@
                 <ColumnDefinition Width="11*"/>
                 <ColumnDefinition Width="21*"/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="button"   HorizontalAlignment="Left" Height="234.554" Margin="117.002,-11.442,0,0" VerticalAlignment="Top" Width="223.113" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5">
+            <Button x:Name="button"   HorizontalAlignment="Left" Height="234.554" Margin="117.002,-11.442,0,0" VerticalAlignment="Top" Width="223.113" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5" Click="button_Click_1">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -189,7 +189,7 @@
                     </Image.RenderTransform>
                 </Image>
             </Button>
-            <Button   HorizontalAlignment="Left" Height="234.488" Margin="34.382,9.879,0,0" VerticalAlignment="Top" Width="223.113" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
+            <Button   HorizontalAlignment="Left" Height="234.488" Margin="34.382,9.879,0,0" VerticalAlignment="Top" Width="223.113" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Click="Button_Click_2">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -211,7 +211,7 @@
             </Button>
 
 
-            <Button  HorizontalAlignment="Left" Height="243.875" Margin="37.219,14.457,0,0" VerticalAlignment="Top" Width="223.293" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
+            <Button  HorizontalAlignment="Left" Height="243.875" Margin="37.219,14.457,0,0" VerticalAlignment="Top" Width="223.293" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Click="Button_Click">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -220,7 +220,7 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </Button.RenderTransform>
-                <Image x:Name="image6" Source="pizza.png" Height="150.254" RenderTransformOrigin="0.5,0.5" PreviewMouseLeftButtonDown="image6_PreviewMouseLeftButtonDown">
+                <Image x:Name="image6" Source="pizza.png" Height="150.254" RenderTransformOrigin="0.5,0.5">
                     <Image.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>

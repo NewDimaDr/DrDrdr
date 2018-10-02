@@ -27,7 +27,24 @@ namespace WpfApp1
 
         private void image6_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            VideoWindow videoWindow = new VideoWindow(/*сюда путь к видео*/);
+           
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            VideoWindow videoWindow = new VideoWindow("1.mp4");
+            videoWindow.ShowDialog();
+        }
+
+        private void button_Click_1(object sender, RoutedEventArgs e)
+        {
+            VideoWindow videoWindow = new VideoWindow("2.mp4");
+            videoWindow.ShowDialog();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            VideoWindow videoWindow = new VideoWindow("3.mp4");
             videoWindow.ShowDialog();
         }
     }
