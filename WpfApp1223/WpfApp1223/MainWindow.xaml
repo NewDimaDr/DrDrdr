@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="500" 
         WindowStyle="None" ResizeMode="NoResize"  
-        Background="Transparent">
+        Background="Transparent"
+        AllowsTransparency="True">
 
     <Window.Resources>
-
         <Style TargetType="{x:Type Button}">
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="BorderThickness" Value="0"/>
@@ -169,8 +169,7 @@
                 <ColumnDefinition Width="11*"/>
                 <ColumnDefinition Width="21*"/>
             </Grid.ColumnDefinitions>
-
-            <Button x:Name="button"   HorizontalAlignment="Left" Height="234.554" Margin="117.002,-11.442,0,0" VerticalAlignment="Top" Width="223.113" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5" Template="{DynamicResource ButtonControlTemplate1}">
+            <Button x:Name="button"   HorizontalAlignment="Left" Height="234.554" Margin="117.002,-11.442,0,0" VerticalAlignment="Top" Width="223.113" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5" Click="button_Click_1">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -190,7 +189,7 @@
                     </Image.RenderTransform>
                 </Image>
             </Button>
-            <Button   HorizontalAlignment="Left" Height="234.488" Margin="34.382,9.879,0,0" VerticalAlignment="Top" Width="223.113" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Template="{DynamicResource ButtonControlTemplate1}">
+            <Button   HorizontalAlignment="Left" Height="234.488" Margin="34.382,9.879,0,0" VerticalAlignment="Top" Width="223.113" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Click="Button_Click_2">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -212,7 +211,7 @@
             </Button>
 
 
-            <Button  HorizontalAlignment="Left" Height="243.875" Margin="37.219,14.457,0,0" VerticalAlignment="Top" Width="223.293" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Template="{DynamicResource ButtonControlTemplate1}">
+            <Button  HorizontalAlignment="Left" Height="243.875" Margin="37.219,14.457,0,0" VerticalAlignment="Top" Width="223.293" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Click="Button_Click">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -221,21 +220,19 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </Button.RenderTransform>
-               
-                    <Image x:Name="image6" Source="pizza.png" Height="150.254" RenderTransformOrigin="0.5,0.5" Style="{DynamicResource ImageStyle1}" OpacityMask="Black">
-                        <Image.RenderTransform>
-                            <TransformGroup>
-                                <ScaleTransform/>
-                                <SkewTransform/>
-                                <RotateTransform/>
-                                <TranslateTransform/>
-                            </TransformGroup>
-                        </Image.RenderTransform>
-                    </Image>
-        
+                <Image x:Name="image6" Source="pizza.png" Height="150.254" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
             </Button>
 
-            <Button  HorizontalAlignment="Left" Height="234.591" Margin="85.812,79.244,0,0" VerticalAlignment="Top" Width="223.293" Grid.Column="1" RenderTransformOrigin="0.5,0.5" Template="{DynamicResource ButtonControlTemplate1}">
+            <Button  HorizontalAlignment="Left" Height="234.591" Margin="85.812,79.244,0,0" VerticalAlignment="Top" Width="223.293" Grid.Column="1" RenderTransformOrigin="0.5,0.5">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -256,7 +253,7 @@
                 </Image>
             </Button>
 
-            <Button  HorizontalAlignment="Left" Height="234.591" Margin="82.437,167.345,0,0" VerticalAlignment="Top" Width="223.293" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Template="{DynamicResource ButtonControlTemplate1}">
+            <Button  HorizontalAlignment="Left" Height="234.591" Margin="82.437,167.345,0,0" VerticalAlignment="Top" Width="223.293" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -277,7 +274,7 @@
                 </Image>
             </Button>
 
-            <Button  HorizontalAlignment="Left" Height="234.591" Margin="25.228,237.697,0,0" VerticalAlignment="Top" Width="223.293" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Template="{DynamicResource ButtonControlTemplate1}">
+            <Button  HorizontalAlignment="Left" Height="234.591" Margin="25.228,237.697,0,0" VerticalAlignment="Top" Width="223.293" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -298,7 +295,7 @@
                 </Image>
             </Button>
 
-            <Button  HorizontalAlignment="Left" Height="238.371" Margin="102.446,244.975,0,-3.346" VerticalAlignment="Top" Width="224.945" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5" Template="{DynamicResource ButtonControlTemplate1}">
+            <Button  HorizontalAlignment="Left" Height="238.371" Margin="102.446,244.975,0,-3.346" VerticalAlignment="Top" Width="224.945" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
