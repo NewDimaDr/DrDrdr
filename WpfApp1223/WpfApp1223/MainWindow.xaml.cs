@@ -23,6 +23,7 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+
         }
 
         private void image6_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
