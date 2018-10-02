@@ -165,7 +165,7 @@
             BorderThickness="10" 
             Background="#EEEEEE">
 
-        <Grid>
+        <Grid x:Name="GridMain">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="11*"/>
                 <ColumnDefinition Width="21*"/>
@@ -234,7 +234,7 @@
             </Button>
 
 
-            <Button  HorizontalAlignment="Left" Height="243.875" Margin="37.219,14.457,0,0" VerticalAlignment="Top" Width="223.293" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Click="Button_Click" Template="{DynamicResource ButtonControlTemplate1}">
+            <Button x:Name="btn1"  HorizontalAlignment="Left" Height="243.875" Margin="37.219,14.457,0,0" VerticalAlignment="Top" Width="223.293" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Click="Button_Click" Template="{DynamicResource ButtonControlTemplate1}">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
