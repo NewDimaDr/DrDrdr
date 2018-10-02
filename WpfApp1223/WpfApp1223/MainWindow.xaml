@@ -255,7 +255,7 @@
                 </Image>
             </Button>
 
-            <Button  HorizontalAlignment="Left" Height="234.591" Margin="85.812,79.244,0,0" VerticalAlignment="Top" Width="223.293" Grid.Column="1" RenderTransformOrigin="0.5,0.5" Template="{DynamicResource ButtonControlTemplate1}">
+            <Button  HorizontalAlignment="Left" Height="234.591" Margin="85.812,79.244,0,0" VerticalAlignment="Top" Width="223.293" Grid.Column="1" RenderTransformOrigin="0.5,0.5" Template="{DynamicResource ButtonControlTemplate1}" Click="Button_Click_3">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -276,7 +276,7 @@
                 </Image>
             </Button>
 
-            <Button  HorizontalAlignment="Left" Height="234.591" Margin="82.437,167.345,0,0" VerticalAlignment="Top" Width="223.293" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Template="{DynamicResource ButtonControlTemplate1}">
+            <Button  HorizontalAlignment="Left" Height="234.591" Margin="82.437,167.345,0,0" VerticalAlignment="Top" Width="223.293" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Template="{DynamicResource ButtonControlTemplate1}" Click="Button_Click_4">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -297,7 +297,7 @@
                 </Image>
             </Button>
 
-            <Button  HorizontalAlignment="Left" Height="234.591" Margin="25.228,237.697,0,0" VerticalAlignment="Top" Width="223.293" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Template="{DynamicResource ButtonControlTemplate1}">
+            <Button  HorizontalAlignment="Left" Height="234.591" Margin="25.228,237.697,0,0" VerticalAlignment="Top" Width="223.293" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Template="{DynamicResource ButtonControlTemplate1}" Click="Button_Click_5">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -318,7 +318,7 @@
                 </Image>
             </Button>
 
-            <Button  HorizontalAlignment="Left" Height="238.371" Margin="102.446,244.975,0,-3.346" VerticalAlignment="Top" Width="224.945" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5" Template="{DynamicResource ButtonControlTemplate1}">
+            <Button  HorizontalAlignment="Left" Height="238.371" Margin="102.446,244.975,0,-3.346" VerticalAlignment="Top" Width="224.945" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5" Template="{DynamicResource ButtonControlTemplate1}" Click="Button_Click_6">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>

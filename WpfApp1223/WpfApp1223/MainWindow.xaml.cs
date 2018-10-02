@@ -52,5 +52,25 @@ namespace WpfApp1
             VideoWindow videoWindow = new VideoWindow("3.mp4");
             videoWindow.ShowDialog();
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            GridMain.Children.Remove((sender as Button));
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            GridMain.Children.Remove((sender as Button));
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            GridMain.Children.Remove((sender as Button));
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            GridMain.Children.Remove((sender as Button));
+        }
     }
 }
